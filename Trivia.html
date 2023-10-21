@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="quiz-container">
+        <h1>Disney Trivia</h1>
+        <div class="user-input">
+            <label for="username">Enter your username: </label>
+            <input type="text" id="username" />
+            <button id="start">Start Quiz</button>
+        </div>
+        <div id="questions">
+            <div class="question-container" id="question1" style="display: none;">
+                <p>Question 1: "What is the name of Ariel and Prince Eric’s daughter?"</p>
+                <div class="option"><input type="radio" name="answer1" value="Bella"> Bella</div>
+                <div class="option"><input type="radio" name="answer1" value="Melody"> Melody</div>
+                <div class="option"><input type="radio" name="answer1" value="Wendy"> Wendy</div>
+                <div class="option"><input type="radio" name="answer1" value="Rose"> Rose</div>
+                <p class="feedback"></p>
+                <button class="next-btn">Next</button>
+            </div>
+            <div class="question-container" id="question2" style="display: none;">
+                <p>Question 2: What does 'Hakuna Matata' mean?</p>
+                <div class="option"><input type="radio" name="answer2" value="Let it go"> Let it go</div>
+                <div class="option"><input type="radio" name="answer2" value="No worries"> No worries</div>
+                <div class="option"><input type="radio" name="answer2" value="Dance"> Dance</div>
+                <div class="option"><input type="radio" name="answer2" value="Happy"> Happy</div>
+                <p class="feedback"></p>
+                <button class="next-btn">Next</button>
+            </div>
+            <div class="question-container" id="question3" style="display: none;">
+                <p>Question 3: Who is Mufasa's trusted advisor in The Lion King?</p>
+                <div class="option"><input type="radio" name="answer3" value="Pumba"> Pumba</div>
+                <div class="option"><input type="radio" name="answer3" value="Nala"> Nala</div>
+                <div class="option"><input type="radio" name="answer3" value="Zazu"> Zazu</div>
+                <div class="option"><input type="radio" name="answer3" value="Timon"> Timon</div>
+                <p class="feedback"></p>
+                <button class="next-btn">Next</button>
+            </div>
+            <div class="question-container" id="question4" style="display: none;">
+                <p>Question 4: What is Tarzan's adopted mother's name?</p>
+                <div class="option"><input type="radio" name="answer4" value="Nila"> Nila</div>
+                <div class="option"><input type="radio" name="answer4" value="Kala"> Kala</div>
+                <div class="option"><input type="radio" name="answer4" value="Jess"> Jess</div>
+                <div class="option"><input type="radio" name="answer4" value="Jane"> Jane</div>
+                <p class="feedback"></p>
+                <button class="next-btn">Next</button>
+            </div>
+            <div class="question-container" id="question5" style="display: none;">
+                <p>Question 5: The Princess and the Frog is set in which city?</p>
+                <div class="option"><input type="radio" name="answer5" value="Dallas"> Dallas</div>
+                <div class="option"><input type="radio" name="answer5" value="New York"> New York</div>
+                <div class="option"><input type="radio" name="answer5" value="Chicago"> Chicago</div>
+                <div class="option"><input type="radio" name="answer5" value="New Orleans"> New Orleans</div>
+                <p class="feedback"></p>
+                <button class="next-btn">Next</button>
+            </div>
+            <div class="question-container" id="question6" style="display: none;">
+                <p>Question 6: Mowgli was raised by what animals in The Jungle Book?</p>
+                <div class="option"><input type="radio" name="answer6" value="Birds"> Birds</div>
+                <div class="option"><input type="radio" name="answer6" value="Monkeys"> Monkeys</div>
+                <div class="option"><input type="radio" name="answer6" value="Lions"> Lions</div>
+                <div class="option"><input type="radio" name="answer6" value="Wolves"> Wolves</div>
+                <p class="feedback"></p>
+                <button class="next-btn">Next</button>
+            </div>
+            <div class="question-container" id="question7" style="display: none;">
+                <p>Question 7: What was Nemo's mother's name?</p>
+                <div class="option"><input type="radio" name="answer7" value="Coral"> Coral</div>
+                <div class="option"><input type="radio" name="answer7" value="Doris"> Doris</div>
+                <div class="option"><input type="radio" name="answer7" value="Nala"> Nala</div>
+                <div class="option"><input type="radio" name="answer7" value="Tori"> Tori</div>
+                <p class="feedback"></p>
+                <button class="next-btn">Next</button>
+            </div>
+            <div class="question-container" id="question8" style="display: none;">
+                <p>Question 8: Dory suffers from what?</p>
+                <div class="option"><input type="radio" name="answer8" value="Diabetes"> Diabetes</div>
+                <div class="option"><input type="radio" name="answer8" value="Short-term memory loss"> Short-term memory loss</div>
+                <div class="option"><input type="radio" name="answer8" value="Hypertension"> Hypertension</div>
+                <div class="option"><input type="radio" name="answer8" value="Attention deficit"> Attention deficit</div>
+                <p class="feedback"></p>
+                <button class="next-btn">Next</button>
+            </div>
+            <div class="question-container" id="question9" style="display: none;">
+                <p>Question 9: The Queen of Hearts wants her roses what color in Alice in Wonderland?</p>
+                <div class="option"><input type="radio" name="answer9" value="Black"> Black</div>
+                <div class="option"><input type="radio" name="answer9" value="Green"> Green</div>
+                <div class="option"><input type="radio" name="answer9" value="Purple"> Purple</div>
+                <div class="option"><input type="radio" name="answer9" value="Red"> Red</div>
+                <p class="feedback"></p>
+                <button class="next-btn">Next</button>
+            </div>
+            <div class="question-container" id="question10" style="display: none;">
+                <p>Question 10: Who was Experiment 626?</p>
+                <div class="option"><input type="radio" name="answer10" value="Mike Wazowski"> Mike Wazowski</div>
+                <div class="option"><input type="radio" name="answer10" value="James P. Sullivan"> James P. Sullivan</div>
+                <div class="option"><input type="radio" name="answer10" value="Stitch"> Stitch</div>
+                <div class="option"><input type="radio" name="answer10" value="The Abominable Snowman"> The Abominable Snowman</div>
+                <p class="feedback"></p>
+                <button class="next-btn">Next</button>
+            </div>
+        </div>
+        <div id="result-container">
+            <p>Your Score: <span id="score">0</span></p>
+        </div>
+         <!--- <div id="play-again">
+            <button id="play-again-button">Play Again</button>
+        </div> --->
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
